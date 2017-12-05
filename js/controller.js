@@ -5,7 +5,7 @@ angular.module('dateInputExample', ['ui.bootstrap'])
     var today = new Date();
 
     if (today.setHours(0) <= value.setHours(0)) {
-      alert("OK");
+      alert("OK..");
     } else {
       alert("Mayor");
     }
